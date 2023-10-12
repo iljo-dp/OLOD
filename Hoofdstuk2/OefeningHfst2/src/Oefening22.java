@@ -10,9 +10,17 @@ public class Oefening22 {
        do {
            i++;
            test = leesgetal(i);
+
            if (test != 0 && test > 0)
              deelBaarDoorx(test);
        }while (test != 0);
+       /*
+       do{
+       System.out.println("Geef getal " + i + " in : ");
+         test = scanner.nextInt();
+
+       }while(test<0;
+        */
        System.out.println("Er zijn " + deelbaar2 + " getallen deelbaar door 2.");
        System.out.println("Er zijn " + deelbaar3 + " getallen deelbaar door 3.");
        System.out.println("Er zijn " + deelbaar6 + " getallen deelbaar door 6.");
