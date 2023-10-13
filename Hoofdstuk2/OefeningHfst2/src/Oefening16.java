@@ -14,7 +14,6 @@ public class Oefening16 {
             if (input > max)
                 max = input;
         }
-
         System.out.println("Van de ingegeven getallen is de som: " + totaal);
         System.out.println("En het gemiddelde is: " + (totaal / 3));
         System.out.println("De rest is: " + (totaal % 3));
