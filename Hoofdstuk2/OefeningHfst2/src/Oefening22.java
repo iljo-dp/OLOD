@@ -5,13 +5,13 @@ public class Oefening22 {
         run.werkUit();
     }
     public void werkUit(){
-        int i = 0;
+        int i = 1;
         int test;
        do {
-           i++;
            test = leesgetal(i);
 
            if (test != 0 && test > 0)
+               i++;
              deelBaarDoorx(test);
        }while (test != 0);
        /*
