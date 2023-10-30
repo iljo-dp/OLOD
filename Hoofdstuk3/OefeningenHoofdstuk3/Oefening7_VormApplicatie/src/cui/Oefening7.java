@@ -8,6 +8,7 @@ public class Oefening7 {
     }
     public void start()
     {
+        int keuze;
         System.out.print("Wil je graag de vorm ingeven van een (0, stop, 1 = Rechthoek, 2 = driehoek ");
         int input = leesGetal('1');
         switch (input)

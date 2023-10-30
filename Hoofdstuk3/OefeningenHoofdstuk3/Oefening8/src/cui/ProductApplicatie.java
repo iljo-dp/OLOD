@@ -1,5 +1,4 @@
 package cui;
-
 import java.util.Scanner;
 import domein.Product;
 
@@ -12,12 +11,9 @@ public class ProductApplicatie {
 
         // Vraag de klant om het aantal stuks van elk product
         Scanner input = new Scanner(System.in);
-        System.out.print("Hoeveel wilt u 'Pannenkoek'? ");
-        int pannenkoekAantal = input.nextInt();
-        System.out.print("Hoeveel wilt u 'Pannenkoek met suiker'? ");
-        int pannenkoekMetSuikerAantal = input.nextInt();
-        System.out.print("Hoeveel wilt u 'Pannenkoek met Choco'? ");
-        int pannenkoekMetChocoAantal = input.nextInt();
+        int pannenkoekAantal = leesGetal("Pannenkoek");
+        int pannenkoekMetSuikerAantal = leesGetal("pannenkoekMetSuiker");
+        int pannenkoekMetChocoAantal = leesGetal("pannenkoekMetChoco");
 
         // Bereken de totale prijs
         double totaalPrijs = pannenkoek.berekenPrijs(pannenkoekAantal)
@@ -28,4 +24,10 @@ public class ProductApplicatie {
 
         input.close();
     }
+    private static int leesGetal(String naam) {
+        Scanner input = new Scanner(System.in);
+        System.out.printf("Geef het aantal %s in: ", naam);
+        return input.nextInt();
+    }
+
 }

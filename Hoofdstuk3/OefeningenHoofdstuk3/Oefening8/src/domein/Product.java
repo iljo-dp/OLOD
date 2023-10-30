@@ -7,6 +7,7 @@ public class Product {
 	private int btwPercentage;
 	private int kortingStuksPercentage;
 
+	private int doomemacs;
 	// Getters and setters
 
 
@@ -24,17 +25,19 @@ public class Product {
 	}
 
 
-	public void setNaam(String naam) {
+	// 3 van de 4 zijn public setters want > in het uml
+	//Bij public setters altijd final zetten --> inheritance.
+	private void setNaam(String naam) {
 		this.naam = naam;
 	}
-	public void setBtwPercentage(int btwPercentage) {
+	public final void setBtwPercentage(int btwPercentage) {
 		if (btwPercentage >= 6 && btwPercentage <= 21) {
 			this.btwPercentage = btwPercentage;
 		} else {
 			this.btwPercentage = 21; // Default
 		}
 	}
-	public void setKortingStuksPercentage(int kortingStuksPercentage) {
+	public final void setKortingStuksPercentage(int kortingStuksPercentage) {
 		if (kortingStuksPercentage >= 0 && kortingStuksPercentage <= 50) {
 			this.kortingStuksPercentage = kortingStuksPercentage;
 		} else {
@@ -42,7 +45,7 @@ public class Product {
 		}
 	}
 
-	public void setPrijsExclBtw(double prijsExclBtw) {
+	public final void setPrijsExclBtw(double prijsExclBtw) {
 		if (prijsExclBtw > 0) {
 			this.prijsExclBtw = prijsExclBtw;
 		} else {
@@ -61,9 +64,6 @@ public class Product {
 	}
 
 	public double berekenPrijs(int aantal) {
-		if (aantal <= 0) {
-			return 0.0;
-		}
 		double prijsVoorKorting = prijsExclBtw;
 		if (aantal >= 6) {
 			double korting = prijsExclBtw * kortingStuksPercentage / 100.0;

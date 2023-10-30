@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/H04_Oefeningen_Starters.iml" filepath="$PROJECT_DIR$/.idea/H04_Oefeningen_Starters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/H04start_Gezinsuitgaven/H04start_Gezinsuitgaven.iml" filepath="$PROJECT_DIR$/H04start_Gezinsuitgaven/H04start_Gezinsuitgaven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/H04start_MatrixTransponeren/H04start_MatrixTransponeren.iml" filepath="$PROJECT_DIR$/H04start_MatrixTransponeren/H04start_MatrixTransponeren.iml" />
+      <module fileurl="file://$PROJECT_DIR$/H04start_Parking/H04start_Parking.iml" filepath="$PROJECT_DIR$/H04start_Parking/H04start_Parking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/H04start_Rekening/H04start_Rekening.iml" filepath="$PROJECT_DIR$/H04start_Rekening/H04start_Rekening.iml" />
+      <module fileurl="file://$PROJECT_DIR$/H04start_Rommelmarkt/H04start_Rommelmarkt.iml" filepath="$PROJECT_DIR$/H04start_Rommelmarkt/H04start_Rommelmarkt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/H04start_Tankstation/H04start_Tankstation.iml" filepath="$PROJECT_DIR$/H04start_Tankstation/H04start_Tankstation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/H04start_Tevredenheidsscores/H04start_Tevredenheidsscores.iml" filepath="$PROJECT_DIR$/H04start_Tevredenheidsscores/H04start_Tevredenheidsscores.iml" />
+      <module fileurl="file://$PROJECT_DIR$/H04start_VierOpEenRij/H04start_VierOpEenRij.iml" filepath="$PROJECT_DIR$/H04start_VierOpEenRij/H04start_VierOpEenRij.iml" />
+      <module fileurl="file://$PROJECT_DIR$/H04start_stoelendans/H04start_stoelendans.iml" filepath="$PROJECT_DIR$/H04start_stoelendans/H04start_stoelendans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oefening211/oefening211.iml" filepath="$PROJECT_DIR$/oefening211/oefening211.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oefening219/oefening219.iml" filepath="$PROJECT_DIR$/oefening219/oefening219.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tests/tests.iml" filepath="$PROJECT_DIR$/tests/tests.iml" />
+    </modules>
+  </component>
+</project>

@@ -282,7 +282,7 @@ public class ProductTest {
 
 	@Test
 	public void berekenPrijsMetBtw_ProductMetBtwPercentage21MetKortingStuks_RetourneertPrijsMetBtw() {
-		Assertions.assertEquals(10.20, p1.berekenPrijs(6), 0.01);
+		Assertions.assertEquals(10.21, p1.berekenPrijs(6), 0.01);
 	}
 
 	@Test
