@@ -31,4 +31,11 @@ public class Gezinsuitgaven {
         System.out.printf("Geef de uitgaven in voor maand %d: ", maand);
         return input.nextDouble();
     }
+    public double berekenGemiddelde(double[] uitgaven) {
+		double totaal = 0;
+		for (double uitgave : uitgaven) {
+			totaal += uitgave;
+		}
+		return totaal / uitgaven.length;
+	}
 }

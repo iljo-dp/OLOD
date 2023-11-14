@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Oefening23 {
     public static void main(String[] args) {
         Oefening23 oef = new Oefening23();
-        oef.main();
+        oef.oefeningnogewat();
     }
     public void main(){
         int input = vraagGetal();
@@ -31,11 +31,19 @@ public class Oefening23 {
         int userinput;
         Scanner input = new Scanner(System.in);
         System.out.println("Geef een strikt positief geheel getal in: ");
-        userinput = input.nextInt();
-
+        return input.nextInt();
+    }
+    public void oefeningnogewat(){
+        int deelbaar = 0;
+        int aantaldeelbaar = 0;
         do {
-            userinput = vraagGetal();
-        }while (userinput <= 0);
-        return userinput;
+            deelbaar = vraagGetal();
+            if (deelbaar % 3 == 0){
+                aantaldeelbaar++;
+            }
+        }while(deelbaar != -1);
+
+        System.out.println(aantaldeelbaar);
+
     }
 }

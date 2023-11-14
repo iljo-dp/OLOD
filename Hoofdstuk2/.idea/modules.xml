@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/Hoofdstuk2.iml" filepath="$PROJECT_DIR$/Hoofdstuk2.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaHoofdStuk2/JavaHoofdStuk2.iml" filepath="$PROJECT_DIR$/JavaHoofdStuk2/JavaHoofdStuk2.iml" />
       <module fileurl="file://$PROJECT_DIR$/OefeningHfst2/OefeningHfst2.iml" filepath="$PROJECT_DIR$/OefeningHfst2/OefeningHfst2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEST/TEST.iml" filepath="$PROJECT_DIR$/TEST/TEST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TEST/testen/testen.iml" filepath="$PROJECT_DIR$/TEST/testen/testen.iml" />
     </modules>
   </component>
 </project>
