@@ -1,0 +1,20 @@
+* HOGERLAGER
+In het functieverloop heb je verschillende stukjes
+
+De eerste 2 lijntjes; En alles vanaf de loop tot beneden
+
+De conditie van de loop
+
+
+De eerste kader.
+OC --> Doing
+KNOWING (terugkeerpijl)
+
+2de block doing en knowing
+Doing --> oc
+knowing --> terugkeer pijl
+
+3de block
+Knowing --> Knowing --> eindespel
+
+

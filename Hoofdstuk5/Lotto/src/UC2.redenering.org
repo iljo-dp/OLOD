@@ -1,0 +1,66 @@
+#+AUTHOR = iljo
+
+* UC2
+    - Verderbouwen op UC1. Dus dezelfde code verderbouwen
+
+** Uitwerking van UC2
+   - Pre cond -
+   - Post cond  het lid heeft voor een gekozen trekking zijn nummers gecontroleerd en kent zijn winst.
+
+
+
+In deze UC hebben we 3 domein opperaties.
+We hebben degene die gewoon --> Start() is
+
+We hebben Degene met de terugkeerpij
+
+En we hebben de loop. Voor gemak zal ik deze 1 2 en 3 noemen, respectievelijk.
+
+Voor 1 hebben we geen doing of knowing.
+We hebben geen OC, geen terugkeerpijl, we houden nergens data bij en vragen deze nergens op.
+
+Voor 2 hebben we een terugkeer pijl --> Dus we hebben een knowing
+Voor 2 hebben we ook een doing --> We hebben een tussentoestand/slaan shit op.
+
+Voor 3 hebben we een terugkeerpijl --> knowing
+Voor 3 hebben we geen DOING --> geen oc of tussentoestand.
+
+STAP 2
+
+Voor 2 halen we de trekking uit de lijst. Dit is een doing want we vragen welke trekking selecteren.
+We zetten dus
+
++selecteerTrekking(naam : String) : void bij de domeinController
+
+En Dus omdat we shit moeten opslaan en kunnen opvragen moeten we dit doen via de repository
+
+We voegen dus
++selecteerTrekking(naam : String) : Trekking
+toe bij de repo
+
+En in de Trekking zetten we een getter bij de naam
+dus -naam : String --> <-naam : String
+
+We voegen ook
++geefwinst(nummers : List<integer>) : int toe aan de DC
+
+ook voegen we +geefWinst(nummers : List<Integer>) : int toe aan de Trekking
+
+Ook een relatie tussen de DC en Trekking
+
+met een X bij DomeinController en een 0..1
+
+
+
+
+
+We voegen enkele dingen toe aan het domein diegram.
+We voegen dit toe bij de domeincontroller
+
+Bij de DomeinController zetten we dit erbij
+
++selecteerTrekking(naam : String) : void
+
+Bij de repository zetten we dit
+
++zoekTrekking(naam: String) : Trekking
