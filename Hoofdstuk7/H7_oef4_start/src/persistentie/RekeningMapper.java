@@ -28,8 +28,8 @@ public class RekeningMapper
 		
 		//TODO
 		//Stel de aangroeiIntrest op 5%.
-		
-		
+		SpaarRekening.setAangroeiIntrest(5);
+
 		lijst.add(zr2);
 		lijst.add(sr2);
 		lijst.add(sr1);

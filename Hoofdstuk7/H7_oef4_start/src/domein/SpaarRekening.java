@@ -26,13 +26,13 @@ public class SpaarRekening extends Rekening
 	{
 		if (bedrag > getSaldo())
 			return false;
-		return super.haalAf(bedrag); 
+		return super.haalAf(bedrag);
 	}
-	
+
 	@Override
 	public String toString()
 	{
-		return String.format("%s. Aangroeiintrest = %.2f%%", 
+		return String.format("%s. Aangroeiintrest = %.2f%%",
 				super.toString(), aangroeiIntrest);
 	}
 }
